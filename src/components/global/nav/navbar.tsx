@@ -98,7 +98,7 @@ const Navbar = () => {
           onClick={() => {
             setIsActive(!isActive);
           }}
-          className={cn(styles.button, "bg-primaryVariant dark:bg-primary")}
+          className={cn(styles.button, "bg-primaryVariant  dark:bg-primary")}
         >
           <div
             className={cn(

@@ -30,14 +30,14 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={cn(poppins.className)}>
         <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
         >
           <Navbar />
           {children}
-          </ThemeProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

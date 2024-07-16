@@ -27,7 +27,7 @@ const Nav = (props: Props) => {
       initial="initial" 
       animate="enter" 
       exit="exit" 
-      className="h-[100vh] fixed right-0 top-0 text-background bg-primary z-[3]"
+      className="h-[100vh] fixed right-0 top-0 text-background bg-gradient-to-l to-primaryVariant from-primary z-[500]"
       >
        <div className="h-[100%] p-[100px] flex flex-col justify-between">
             <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className="flex flex-col text-[56px] gap-[12px] mt-[80px]">
